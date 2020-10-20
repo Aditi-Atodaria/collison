@@ -34,11 +34,11 @@ function draw() {
        car.shapeColor = "red";
      }
      
-     if (deformation < 180 && deformation >180){
+     if (deformation < 100 && deformation >180){
        car.shapeColor = "yellow";
      }
      
-     if(deformation < 100){
+     if(deformation > 100){
        car.shapeColor = "green";
      }
    }
